@@ -1,0 +1,7 @@
+.*/node_modules/.*
+.*/[vV]endor/.*
+.*/[aA]pp/.*
+.[gG]itmodules$
+.*/html/library/.*
+.*/src/main/resources/.*
+(?i).*\.(tf|html|css)$
