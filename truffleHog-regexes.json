@@ -44,12 +44,4 @@
   "Backdoor Discovery Keyword" : "[bB][aA][cC][kK][dD][oO][oO][rR].*",
   "Generic Password XML Tags" : "<password>.*</password>",
   "Generic Authtoken" : "authtoken: .*",
-  "Autorization Generic Discovery": "Authorization: [\"'][a-zA-Z0-9!.,?£$%^&*()@;:/+']{1,40}[\"']",
-  "Autorization Basic Discovery": "Authorization: Basic .*",
-  "Autorization Bearer Discovery": "Authorization: Bearer .*",
-  "Generic Password Discovery" : "[pP]assword.?[=:].?[a-zA-Z0-9_!.,?£$%^&*()@;:/+'{}]{1,40}",
-  "Backdoor Discovery Keyword" : "[bB][aA][cC][kK][dD][oO][oO][rR].*",
-  "Generic Password XML Tags" : "<password>(?!\\$|\\{)[a-zA-Z0-9_!\".,?£$%^&*()@;:/+'{}]{1,40}</password>",
-  "Generic Authtoken" : "authtoken: (!?\\$\\{)[a-zA-Z0-9_!\".,?£$%^&*()@;:/+'{}]{1,100}"
-
 }
