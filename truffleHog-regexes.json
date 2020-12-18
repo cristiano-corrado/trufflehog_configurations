@@ -41,6 +41,5 @@
   "Autorization Bearer Discovery": "Authorization: Bearer .*",
   "Generic Password Discovery" : "[pP]assword.?[=:].*",
   "Backdoor Discovery Keyword" : "[bB][aA][cC][kK][dD][oO][oO][rR].*",
-  "Generic Password XML Tags" : "<password>.*</password>",
   "Generic Authtoken" : "authtoken: .*"
 }
