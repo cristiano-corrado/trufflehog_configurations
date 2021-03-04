@@ -43,5 +43,6 @@
   "Backdoor Discovery Keyword" : "[bB][aA][cC][kK][dD][oO][oO][rR].*",
   "Generic Authtoken" : "authtoken: .*",
   "Generic XML PASS TAG": "<password>.*</password>",
-  "Generic TOKEN" : "_token:.*"
+  "Generic TOKEN" : "_token:.*",
+  "GENERIC CRISTIANO": "cristiano"
 }
