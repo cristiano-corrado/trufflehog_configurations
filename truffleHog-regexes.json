@@ -44,5 +44,5 @@
   "Generic Authtoken" : "authtoken: .*",
   "Generic XML PASS TAG": "<password>.*</password>",
   "Generic TOKEN" : "_token:.*",
-  "GENERIC CRISTIANO": "cristiano"
+
 }
