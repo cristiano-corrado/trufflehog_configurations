@@ -4,4 +4,4 @@
 .[gG]itmodules$
 .*/html/library/.*
 .*/src/main/resources/.*
-(?i).*\.(tf|html|css)$
+(?i).*\.(tf|html|css|js)$
