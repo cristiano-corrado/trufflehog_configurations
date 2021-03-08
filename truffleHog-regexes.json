@@ -12,11 +12,11 @@
   "Autorization Generic Discovery": "Authorization: \\'.*\\'",
   "Autorization Basic Discovery": "Authorization: Basic .*",
   "Autorization Bearer Discovery": "Authorization: Bearer .*",
-  "Generic Password Discovery" : "[pP]assword.?[=:].*",
+  "Generic Password Discovery" : "[pP]assword.?[=:].?[\\'\"][a-zA-Z0-9]{3,20}",
   "Backdoor Discovery Keyword" : "[bB][aA][cC][kK][dD][oO][oO][rR].*",
   "Generic Authtoken" : "authtoken: .*",
   "Generic XML PASS TAG": "<password>.*</password>",
   "Generic TOKEN" : "_token:.*",
-  "CUSTOM SECRET": "Decode secret :"
+  "CUSTOM SECRET": "Decode secret :.*"
 
 }
