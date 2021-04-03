@@ -7,3 +7,4 @@
 (?i).*\.(tf|html|css|js)$
 .*/test[s]?/.*
 .*/Readme.md
+.venv/.*
