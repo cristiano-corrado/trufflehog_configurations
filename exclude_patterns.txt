@@ -5,3 +5,5 @@
 .*/html/library/.*
 .*/src/main/resources/.*
 (?i).*\.(tf|html|css|js)$
+.*/test[s]?/.*
+.*/Readme.md
