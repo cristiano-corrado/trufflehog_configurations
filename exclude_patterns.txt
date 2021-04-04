@@ -1,10 +1,10 @@
-.*/node_modules/.*
-.*/[vV]endor/.*
+node_modules/.*
+vV]endor/.*
 .*/[aA]pp/.*
 .[gG]itmodules$
 .*/html/library/.*
 .*/src/main/resources/.*
 (?i).*\.(tf|html|css|js)$
-.*/test[s]?/.*
+test[s]?/.*
 .*/[rR][eE][Aa][Dd][Mm][Ee].md
 .venv/.*
