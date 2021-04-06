@@ -18,7 +18,7 @@
   "Generic XML PASS TAG": "<password>.*</password>",
   "Generic TOKEN" : "_token:.*",
   "Custom Secret Informa": "Decode secret.?:.*",
-  "Username Information": "[uU]sername:.*",
-  "test brokers": "cristiano"
+  "Username Information": "[uU]sername:.*"
+  
 
 }
