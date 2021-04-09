@@ -1,5 +1,5 @@
 node_modules/.*
-vV]endor/.*
+.*/[vV][Ee][Nn][Dd][Oo][Rr]/.*
 .*/[aA]pp/.*
 .[gG]itmodules$
 .*/html/library/.*
