@@ -18,4 +18,5 @@
   "Generic XML PASS TAG": "<password>.*</password>",
   "Generic TOKEN" : "_token:.*",
   "Custom Secret Informa": "Decode secret.?:.*",
+  "Base64 Data": "^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$"
 }
