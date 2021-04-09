@@ -4,19 +4,19 @@
   "SSH (DSA) private key": "-----BEGIN DSA PRIVATE KEY-----",
   "SSH (EC) private key": "-----BEGIN EC PRIVATE KEY-----",
   "PGP private key block": "-----BEGIN PGP PRIVATE KEY BLOCK-----",
-  "Amazon AWS Access Key ID": "AKIA[0-9A-Z]{16}",
+  "Amazon AWS Access Key ID": "A[KS]IA[0-9A-Z]{16}",
   "Amazon MWS Auth Token": "amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+  "Amazon AWS Secret Access Token": "aws_secret_access_key=[a-zA-Z0-9+/=]{30,45}"
   "Password in URL": "[a-zA-Z]{3,10}://(?!user|github|GITHUB|github_token|x-oauth-basic|\\$|\\{)[^/\\s:@]{3,20}:(?!pass|secret|PASSWORD|\\$|\\{)[^/\\s:@]{3,20}@.{1,100}[\"'\\s]",
   "Stripe API Key": "sk_live_[0-9a-zA-Z]{24}",
   "Stripe Restricted API Key": "rk_live_[0-9a-zA-Z]{24}",
-  "Autorization Generic Discovery": "Authorization: \\'.*\\'",
-  "Autorization Basic Discovery": "Authorization: Basic .*",
-  "Autorization Bearer Discovery": "Authorization: Bearer .*",
+  "Autorization Basic Discovery": "Authorization:\s?Basic\s?(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?",
+  "JWT Bearer Discovery": "Authorization:\s?Bearer\s?ey.*",
   "Generic Password Discovery" : "[pP]assword.?[=:].?[\\'\"].*[\\'\"]",
   "Backdoor Discovery Keyword" : "[bB][aA][cC][kK][dD][oO][oO][rR].?[:=][\\'\"][a-zA-Z0-9]{3,30}",
   "Generic Authtoken" : "authtoken: .*",
   "Generic XML PASS TAG": "<password>.*</password>",
   "Generic TOKEN" : "_token:.*",
   "Custom Secret Informa": "Decode secret.?:.*",
-  "Base64 Data": "^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$"
+  "Base64 Data": "(?:[A-Za-z0-9+/]{4}){2,}(?:[A-Za-z0-9+/]{2}[AEIMQUYcgkosw048]=|[A-Za-z0-9+/][AQgw]==)"
 }
