@@ -22,8 +22,6 @@
   "Google OAuth Access Token": "ya29\\.[0-9A-Za-z\\-_]+",
   "Google YouTube API Key": "AIza[0-9A-Za-z\\-_]{35}",
   "Google YouTube OAuth": "[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com",
-  "Generic API Key": "[aA][pP][iI]_?[kK][eE][yY].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
-  "Generic Secret": "[sS][eE][cC][rR][eE][tT].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
   "Heroku API Key": "[hH][eE][rR][oO][kK][uU].*[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}",
   "MailChimp API Key": "[0-9a-f]{32}-us[0-9]{1,2}",
   "Mailgun API Key": "key-[0-9a-zA-Z]{32}",
@@ -42,11 +40,13 @@
   "Password in URL": "[a-zA-Z]{3,10}://(?!user|github|GITHUB|github_token|x-oauth-basic|\\$|\\{)[^/\\s:@]{3,20}:(?!pass|secret|PASSWORD|\\$|\\{)[^/\\s:@]{3,20}@.{1,100}[\"'\\s]",
   "Autorization Basic Discovery": "Authorization:\\s?Basic\\s?(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?",
   "JWT Bearer Discovery": "Authorization:\\s?Bearer\\s?ey.*",
-  "Generic Password Discovery" : "[pP]assword.?[=:].?(?!\\$[{]?)[\\'\"].*?[\\'\"](?!\\})",
   "Backdoor Discovery Keyword" : "[bB][aA][cC][kK][dD][oO][oO][rR].?[:=][\\'\"][a-zA-Z0-9]{3,30}",
   "Generic Authtoken" : "authtoken: .*",
   "XML Secret": "<password>(?!\\$[{]?).*?(?!\\})<\/password>",
   "Generic TOKEN" : "_token\\s?:\\s?(?!\\$[{]?).*(?!\\})",
+  "Generic Password Discovery": "[pP]assword.?[=:].?(?!\\$[{]?)[\\'\"].*?[\\'\"](?!\\})",
+  "Generic API Key": "[aA][pP][iI]_?[kK][eE][yY].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
+  "Generic Secret": "[sS][eE][cC][rR][eE][tT].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
   "Custom Secret Informa": "Decode secret.?:.*",
   "Base64 Data": "(?:[A-Za-z0-9+/]{4}){2,}(?:[A-Za-z0-9+/]{2}[AEIMQUYcgkosw048]=|[A-Za-z0-9+/][AQgw]==)"
 }
