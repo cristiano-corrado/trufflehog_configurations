@@ -43,7 +43,7 @@
   "Generic Authtoken" : "authtoken: .*",
   "XML Secret": "<password>(?!\\$[{]?).*?(?!\\})<\/password>",
   "Generic Token" : "_token\\s?:\\s?(?!\\$[{])[\"]?[a-zA-Z0-9].*(?!})",
-  "Generic Password Discovery": "[pP]assword.?[=:].?(?!\\$[{]?)[\\'\"].*?[\\'\"](?!\\})",
+  "Generic Password Discovery": "[pP]assword.?[=:].?(?![\'\"]?vault|\"\$[a-zA-Z]|\"\"|\'\'|\"\$\(|\"\$\{)[\\'\"].*?[\\'\"](?!\})",
   "Generic API Key": "[aA][pP][iI]_?[kK][eE][yY].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
   "Generic Secret": "[sS][eE][cC][rR][eE][tT].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
   "Custom Secret Informa": "Decode.?secret.?:.*"
