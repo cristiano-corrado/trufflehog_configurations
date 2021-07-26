@@ -46,7 +46,7 @@
   "Generic Password Discovery": "[pP]assword.?[=:].?(?!['\"]?vault|\\{cipher\\}|\"\\$[a-zA-Z]|\"\"|''|\"\\$\\(|\"\\$\\{|@\"|\"?\\{\\{)['\"].*?[\\'\"](?!\\})",
   "Generic API Key": "[aA][pP][iI]_?[kK][eE][yY].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
   "Generic Secret": "[sS][eE][cC][rR][eE][tT].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
-  "Custom Decoded Secret": "Decode.?secret.?:.*"
-   
+  "Custom Decoded Secret": "Decode.?secret.?:.*",
+  "Cristiano Corrado": "pattern"
   
 }
