@@ -47,6 +47,6 @@
   "Generic API Key": "[aA][pP][iI]_?[kK][eE][yY].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
   "Generic Secret": "[sS][eE][cC][rR][eE][tT].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
   "Custom Decoded Secret": "Decode.?secret.?:.*",
-  "Postgres Secret": "POSTGRES_PASSWORD"
+  "Postgres Secret": "POSTGRES_PASSWORD.?:.*"
   
 }
