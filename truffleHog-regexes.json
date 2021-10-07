@@ -49,6 +49,6 @@
   "Custom Decoded Secret": "Decode.?secret.?:.*",
   "Postgres Secret": "POSTGRES_PASSWORD.?:.*",
   "Pre Seed Secret": "partman-crypto/passphrase.*",
-  "OpenSSL Secret Certificate": "-pass(in|out).*"
+  "OpenSSL Secret Certificate": "-(passin|passout).*"
   
 }
