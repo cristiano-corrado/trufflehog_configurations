@@ -50,6 +50,6 @@
   "Postgres Secret": "[pP][oO][sS][tT][gG][Rr][eE][sS]_?[pP][aA][sS][sS][wW][oO][rR][dD].?:.*",
   "Pre Seed Secret": "partman-crypto/passphrase.*",
   "OpenSSL Secret Certificate": "-(?=passin|passout).*",
-  "Github Action tmate": "action-tmate"
+  "Github Action tmate": ".*[tT][mM][aA][tT[eE].*"
   
 }
